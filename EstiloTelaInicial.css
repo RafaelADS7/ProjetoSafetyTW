@@ -39,6 +39,7 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 90%;
+    margin-top: 4%;
 }
 
 h1 {
@@ -46,8 +47,8 @@ h1 {
 }
 
 img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
-    height: 70%; 
+    max-width: 80%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: auto; 
 }
 
 input {
@@ -69,7 +70,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     width: 70%;
-    margin: 10px;
+    margin: 5%;
 }
 
 .botao_entrar {
@@ -87,4 +88,26 @@ footer {
 
 a {
     color: black;
+}
+
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .botao_entrar {
+        width: 100%;
+    }
+
+    img {
+        width: 80%;
+        height: 80%;
+    }
 }
