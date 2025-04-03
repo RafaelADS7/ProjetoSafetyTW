@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #333;
+    line-height: 1.6;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 22%;
+    height: 87%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: 70%; 
+}
+
+input {
+    width: 100%;
+    padding:7px;
+    font-size: 0.7rem;
+}
+
+.inputs {
+    display: flex;
+    margin: 5px;   
+    flex-direction: column;
+    width: 85%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 10px;
+}
+
+.botao_entrar {
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+a {
+    color: black;
+}
