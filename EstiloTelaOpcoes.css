@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #333;
+    line-height: 1.6;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 22%;
+    height: 87%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+}
+
+.imagens_cima {
+    width: 70%;
+    height: 70%;
+}
+
+.quadrados1 {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    border-radius: 5px;
+}
+
+
+.quadrados_preto2 {
+    display: flex;
+    width: 50%;
+    height: 35%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.quadrados_preto3 {
+    display: flex;
+    width: 50%;
+    height: 35%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.quadrado_administrador {
+    display: flex;
+    width: 30%;
+    height: 20%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50%;
+}
+
+.imagem_administracao {
+    width: 60%;
+    height: 45%;
+}
