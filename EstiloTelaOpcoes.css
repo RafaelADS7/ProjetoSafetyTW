@@ -26,41 +26,39 @@ body {
     border-radius: 35px;
 }
 
-.imagens_cima {
-    width: 70%;
-    height: 70%;
-}
-
 .quadrados1 {
     display: flex;
-    width: 60%;
-    height: 60%;
+    width: 85%;
+    height: 80%;
     background-color: white;
     align-items: center;
     justify-content: center;
-    gap: 15%;
+    gap: 7%;
     border-radius: 5px;
+    margin-top: 7%;
 }
 
 
 .quadrados_preto2 {
     display: flex;
-    width: 50%;
-    height: 35%;
+    width: 90%;
+    height: 100%;
     background-color: black;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    padding: 10%;
 }
 
 .quadrados_preto3 {
     display: flex;
-    width: 50%;
-    height: 35%;
+    width: 90%;
+    height: 100%;
     background-color: black;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    padding: 10%;
 }
 
 .quadrado_administrador {
@@ -70,10 +68,76 @@ body {
     background-color: black;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50%;
+    margin-bottom: 5%;
+    border-radius: 5px;
 }
 
 .imagem_administracao {
     width: 60%;
     height: 45%;
+}
+
+.imagens_configuracoes {
+    width: 60%;
+    height: 80%;
+}
+
+.imagens_agenda {
+    width: 60%;
+    height: 45%;
+}
+
+.texto_administrador {
+    display: flex;
+    width: 35%;
+    height: 6%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-bottom: 40%;
+}
+
+.texto_assistencia {
+    display: flex;
+    width: 70%;
+    height: 6%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 10%;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.texto_checklist {
+    display: flex;
+    width: 70%;
+    height: 6%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 10%;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.bloco_assistencia {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco_checklist {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
 }
