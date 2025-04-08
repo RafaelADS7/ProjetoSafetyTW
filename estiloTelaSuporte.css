@@ -79,7 +79,60 @@ button {
 .bloco_h1 {
     margin-bottom: 12%;
 }
-
 h1 {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
+
+@media (min-width: 150px) {
+    h1 {
+        font-size: 0.5rem;
+    }
+    label {
+        font-size: 0.5rem;
+    }
+    button {
+        width: 60%;
+        font-size: 0.5rem;
+    }    
+}
+
+@media (min-width: 420px) {
+    h1 {
+        font-size: 0.5rem;
+    }
+    label {
+        font-size: 0.5rem;
+    }
+    button {
+        width: 80%;
+        font-size: 0.8rem;
+    } 
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 0.9rem;
+    }
+    label {
+        font-size: 0.9rem;
+    }
+    button {
+        width: 80%;
+        font-size: 1.1rem;
+    } 
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 1.1rem;
+    }
+    label {
+        font-size: 1.1rem;
+    }
+    button {
+        width: 70%;
+        font-size: 1.3rem;
+    } 
+}
+
+
