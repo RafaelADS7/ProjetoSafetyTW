@@ -177,7 +177,30 @@ label {
 
 @media (min-width: 1120px) {
     .container {
-        width: 50%;
+        width: 20%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .botao_entrar {
+        width: 100%;
+    }
+
+    img {
+        width: 75%;
+        height: 80%;
+    }
+}
+
+
+
+
+@media (min-width: 1440px) {
+    .container {
+        width: 60%;
         padding: 15px;
     }
 
@@ -186,7 +209,7 @@ label {
     }
 
     .botao_entrar {
-        width: 100%;
+        width: 50%;
     }
 
     img {
